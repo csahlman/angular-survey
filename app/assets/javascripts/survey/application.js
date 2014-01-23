@@ -10,4 +10,7 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require_tree .
+//= require survey/survey
+//= require survey/lib/promise-tracker
+//= require_tree ./controllers
+//= require_tree ./directives
